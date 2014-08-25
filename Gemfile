@@ -43,3 +43,9 @@ gem 'faraday'
 gem 'multi_json'
 gem 'simple_oauth'
 gem 'echowrap'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0.beta', group: :development
+  gem 'capybara', '= 2.2.1'
+  gem 'database_cleaner', '= 1.2.0'
+end
