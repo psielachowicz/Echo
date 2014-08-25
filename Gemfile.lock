@@ -215,6 +215,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   multi_json
+  nokogiri
   pg (= 0.15.1)
   rails (= 4.1.4)
   rails_12factor (= 0.0.2)
