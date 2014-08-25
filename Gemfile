@@ -46,25 +46,9 @@ gem 'multi_json'
 gem 'simple_oauth'
 gem 'echowrap'
 
-group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0.beta', group: :development
-  gem 'capybara', '= 2.2.1'
-  gem 'database_cleaner', '= 1.2.0'
-end
-gem 'nokogiri'
 gem 'rake'
 
-group :test do
-  gem 'coveralls', :require => false
-  gem 'rspec',   '~>3.0'
-  gem 'webmock', '~>1.0'
-  gem 'timecop', '~>0.0'
-end
 
-group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-end
 
 
 
