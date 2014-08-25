@@ -2,7 +2,7 @@ LINKIN PARK FUNPAGE
 with ECHO NEST API
 
 TRAVIS: 
-
+[![Build Status](https://travis-ci.org/psielachowicz/My_movies.svg?branch=master)](https://travis-ci.org/psielachowicz/My_movies)
 
 HEROKU:
 
