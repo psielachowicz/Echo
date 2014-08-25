@@ -1,0 +1,2 @@
+module GlownyHelper
+end
