@@ -51,7 +51,7 @@ group :development, :test do
   gem 'capybara', '= 2.2.1'
   gem 'database_cleaner', '= 1.2.0'
 end
-
+gem 'nokogiri'
 gem 'rake'
 
 group :test do
@@ -66,5 +66,5 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'nokogiri'
+
 
