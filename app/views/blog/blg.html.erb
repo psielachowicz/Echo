@@ -1,10 +1,13 @@
 <h1>Linkin Park fan page</h1>
+
 <%= link_to "NEWS", :controller => :news, :action => :nws %>
 <%= link_to "REVIEW", :controller => :info, :action => :inf %>
+<%= link_to "BIOGRAPHY", :controller => :glowny, :action => :idx %>
 <%= link_to "SONGS", :controller => :songs, :action => :sng %>
-<%= link_to "BLOGS", :controller => :blog, :action => :blg %>
 <br>
-<h2>Biography:</h2>
-<% @artist.each do |place| %>
-<%= place.text %>
+<h2>Blogs:</h2>
+<% @blg.each do |place| %>
+<h3><%= link_to place.url, place.url %></h3>
+<br>
+<h3><%= place.summary %></h3>
 <% end %>

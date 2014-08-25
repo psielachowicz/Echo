@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'songs/sng'
+
+  get 'news/nws'
+
+  get 'info/inf'
+
+  get 'blog/blg'
+
   get 'glowny/idx'
 root 'glowny#idx'
   # The priority is based upon order of creation: first created -> highest priority.

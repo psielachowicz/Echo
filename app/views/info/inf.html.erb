@@ -1,0 +1,14 @@
+<h1>Linkin Park fan page</h1>
+
+<%= link_to "SONGS", :controller => :songs, :action => :sng %>
+<%= link_to "NEWS", :controller => :news, :action => :nws %>
+<%= link_to "BIOGRAPHY", :controller => :glowny, :action => :idx %>
+<%= link_to "BLOGS", :controller => :blog, :action => :blg %>
+<br>
+<h2>Reviews:</h2>
+
+<% @rev.each do |place| %>
+<h3><%= link_to place.url, place.url %></h3>
+<br>
+<h3><%= place.summary %></h3>
+<% end %>

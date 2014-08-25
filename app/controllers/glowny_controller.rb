@@ -5,8 +5,6 @@ class GlownyController < ApplicationController
   config.consumer_key =  '38f5a614495468b0c0c99d2df4b732f2'
   config.shared_secret = 'KoQO6dO+SEqJhwTG3FcF3A'
 end
-  @artist = Echowrap.artist_search(:name => params[:artist_name], 
-                                     :results => 1, 
-                                     :bucket => ['hotttnesss', 'familiarity', 'artist_location'])
+  @artist = Echowrap.artist_biographies(:name => 'Linkin Park', :results => 1)
   end
 end
