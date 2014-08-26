@@ -9,4 +9,6 @@ HEROKU:
  http://blooming-dusk-9463.herokuapp.com/
 
 TEST: 
-Implementing right now.
+TESTy oraz PASSED travis zostały przeze mnie dodane w aplikacji MY_Movies.
+
+https://github.com/psielachowicz/My_movies 
