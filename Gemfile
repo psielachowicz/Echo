@@ -44,7 +44,7 @@ gem 'faraday'
 gem 'multi_json'
 gem 'simple_oauth'
 gem 'echowrap'
-
+gem 'rspec'
 
 
 
