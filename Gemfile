@@ -9,9 +9,9 @@ group :development, :production do
   gem 'pg', '0.15.1'
 end
 
-group :test do
-  gem 'sqlite3', '1.3.6'
-end
+
+  gem 'sqlite3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
